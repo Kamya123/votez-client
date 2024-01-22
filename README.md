@@ -1,40 +1,108 @@
-## Getting Started
+# Votez 🗳️
 
-Create a project using this example:
+> Empowering anonymous polling through blockchain technology.
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/your-username/Votez)](https://github.com/tier3guy/votez-client/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your-username/Votez)](https://github.com/tier3guy/votez-client/pulls)
+
+---
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Blockchain Integration](#blockchain-integration)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## About
+
+Votez is a social media platform designed to facilitate anonymous polling using blockchain technology. Users can create polls, and others can vote on them while ensuring the privacy and integrity of the voting process.
+
+---
+
+## Features
+
+✅ **Anonymous Polls:** Users can create polls and vote without revealing their identities.
+
+🔗 **Blockchain Integration:** Utilizes blockchain to secure and validate poll transactions.
+
+🌐 **User-Friendly Interface:** Intuitive design for a seamless user experience.
+
+🔐 **Security:** Ensures the confidentiality and integrity of poll data.
+
+📊 **Real-time Results:** Instantly view the results as votes are cast.
+
+---
+
+## Installation
+
+1. Clone the repository:
 
 ```bash
-npx thirdweb create --template cra-typescript-starter
+git clone https://github.com/tier3guy/votez-client
 ```
 
-You can start editing the page by modifying `src/index.tsx`. The page auto-updates as you edit the file.
-
-On `src/index.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-## Environment Variables
-
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env` file or set them up on your hosting provider.
-
-### Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
+2. Install dependencies:
 
 ```bash
-yarn deploy
+cd votez-client
+npm install
 ```
 
-## Learn More
+3. Set up the database and configure blockchain integration.
 
-To learn more about thirdweb, React and CRA, take a look at the following resources:
+4. Configure the .env file as of explained in the .env.example file
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started) - learn about CRA features.
-- [React documentation](https://reactjs.org/) - learn React.
+5. Run the application:
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Join our Discord!
+---
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+## Usage
+
+1. Sign up or log in to your Votez account.
+
+2. Create a new poll by providing a question and options.
+
+3. Share your poll link with others.
+
+4. Users can anonymously vote on the poll.
+
+5. Explore real-time results and analytics.
+
+---
+
+## Blockchain Integration
+
+Votez leverages blockchain technology to enhance the security and transparency of the polling process. Each vote is recorded as a transaction on the blockchain, providing a tamper-resistant and verifiable record.
+
+---
+
+## Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to reach out to us if you have any questions or feedback. Happy coding! 🚀

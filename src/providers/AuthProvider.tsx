@@ -26,16 +26,16 @@ export const AuthProvider: React.FC<{
     children: ReactNode;
 }> = ({ children }) => {
     const navigate = useNavigate();
-    const [isAuthenticated, setAuthenticated] = useState<boolean>(true);
+    const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
 
     // Simulates Login Action
     const login = () => {
-        setAuthenticated(true);
+        setIsAuthenticated(true);
     };
 
     // Simulates Logout Action
     const logout = () => {
-        setAuthenticated(false);
+        setIsAuthenticated(false);
     };
 
     // Function to check if the given path is in the AuthRoutes
